@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2019", "dom"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@analyzer/lang/analyzer": ["libs/lang/analyzer/src/index.ts"],
+      "@analyzer/lang/dictionary": ["libs/lang/dictionary/src/index.ts"],
+      "@analyzer/lang/eras": ["libs/lang/eras/src/index.ts"],
+      "@analyzer/lang/inflections": ["libs/lang/inflections/src/index.ts"],
+      "@analyzer/utils/assert": ["libs/utils/assert/src/index.ts"],
+      "@analyzer/utils/combinations": ["libs/utils/combinations/src/index.ts"],
+      "@analyzer/utils/jmdict": ["libs/utils/jmdict/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
